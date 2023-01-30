@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marci\\source\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
+    "H:\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marci\\source\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+    "H:\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marci\\source\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "H:\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "C:\\Users\\marci\\source\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectPath": "H:\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marci\\source\\repos\\WeatherApp\\WeatherApp\\obj\\",
+        "outputPath": "H:\\repos\\WeatherApp\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

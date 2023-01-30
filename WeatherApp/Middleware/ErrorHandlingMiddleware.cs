@@ -1,4 +1,6 @@
-﻿using WeatherApp.Exceptions;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor;
+using WeatherApp.Exceptions;
 
 namespace WeatherApp.Middleware
 {
@@ -14,6 +16,7 @@ namespace WeatherApp.Middleware
             {
                 context.Response.StatusCode = 400;
                 await context.Response.WriteAsync(connectionFailedException.Message);
+                
             }
             catch (NotFoundException notFoundException)
             {

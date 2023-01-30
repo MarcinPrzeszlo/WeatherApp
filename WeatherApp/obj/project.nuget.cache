@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HpEAJwmE+YrydbvbGV3vQfoyE5gt3ExrtCQ68J849561eBYakNwHySYO1VnoYLNcb5AswqYdJ4OMjdXOoxO8Uw==",
+  "dgSpecHash": "O26diRp9KHvL2c+iHVZtaOArSp83s8ECm/OIAkvIrpbYIbVj0fNhSEXtFy6bp0oglp2uQ2jOjgmyh8WCwM2TUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marci\\source\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+  "projectFilePath": "H:\\repos\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

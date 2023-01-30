@@ -25,10 +25,10 @@ namespace WeatherApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult CitySearching(SearchByCityModel model)
+        public async Task<IActionResult> CitySearching(SearchByCityModel model)
         {
             string? city = model.CityName;
-            Coord coord = _dataService.GetCityCoord(city);
+            Coord coord = await _dataService.GetCityCoord(city);
 
             if (coord != null)
             {
@@ -41,9 +41,9 @@ namespace WeatherApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult City(Coord coord)
+        public async Task<IActionResult> City(Coord coord)
         {
-            CityModel viewModel = _dataService.GetForecast(coord);
+            CityModel viewModel = await _dataService.GetForecast(coord);
 
             if (viewModel != null)
             {
@@ -72,9 +72,9 @@ namespace WeatherApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult SensorData(SelectDataModel model)
+        public async Task<IActionResult> SensorData(SelectDataModel model)
         {
-            var viewModel = _dataService.GetMeasurements(model);
+            var viewModel = await _dataService.GetMeasurements(model);
             return View(viewModel);
         }
     }

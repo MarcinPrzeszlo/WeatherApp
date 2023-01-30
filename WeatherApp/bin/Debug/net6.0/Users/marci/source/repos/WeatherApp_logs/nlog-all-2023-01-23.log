@@ -2372,3 +2372,977 @@
 2023-01-23 15:28:59.9558||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNT87AJKH80" is closed. The last processed stream ID was 27. 
 2023-01-23 15:28:59.9558||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNT87AJKH80" sending FIN because: "The client closed the connection." 
 2023-01-23 15:28:59.9661||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNT87AJKH80" stopped. 
+2023-01-23 18:12:20.7259||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/WeatherApp/CityDaily.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/WeatherApp/CityNotFound.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/WeatherApp/SearchByCity.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/WeatherApp/SelectSensorData.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/WeatherApp/SensorData.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'. 
+2023-01-23 18:12:20.7638||DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2023-01-23 18:12:20.7715||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-01-23 18:12:20.8220||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-01-23 18:12:20.8511||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-01-23 18:12:20.8511||DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys\key-d6efce06-f67f-4485-b43f-f86572d522a3.xml'. 
+2023-01-23 18:12:20.8511||DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys\key-de3177e8-852b-495c-9433-86b27b11f2ec.xml'. 
+2023-01-23 18:12:20.8511||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d6efce06-f67f-4485-b43f-f86572d522a3}. 
+2023-01-23 18:12:20.8511||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {de3177e8-852b-495c-9433-86b27b11f2ec}. 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {de3177e8-852b-495c-9433-86b27b11f2ec} with expiration date 2023-04-11 16:13:06Z as default key. 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {de3177e8-852b-495c-9433-86b27b11f2ec} as the default key. 
+2023-01-23 18:12:20.8679||DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {de3177e8-852b-495c-9433-86b27b11f2ec} was loaded during application startup. 
+2023-01-23 18:12:20.9810||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 85460798E70051DFF36DFF2BD4F40BCD01C7F7AB) 
+2023-01-23 18:12:21.0104||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7007 
+2023-01-23 18:12:21.0104||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5007 
+2023-01-23 18:12:21.0104||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WeatherApp 
+2023-01-23 18:12:21.0104||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-01-23 18:12:21.0104||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-01-23 18:12:21.0104||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-01-23 18:12:21.0104||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-01-23 18:12:21.0104||INFO|Microsoft.Hosting.Lifetime|Content root path: H:\repos\WeatherApp\WeatherApp\ 
+2023-01-23 18:12:21.0104||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-01-23 18:12:21.0686||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV1" accepted. 
+2023-01-23 18:12:21.0686||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV2" accepted. 
+2023-01-23 18:12:21.0686||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV1" started. 
+2023-01-23 18:12:21.0686||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV2" started. 
+2023-01-23 18:12:21.0686||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNTCJUH2AV2" received FIN. 
+2023-01-23 18:12:21.0686||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNTCJUH2AV1" received FIN. 
+2023-01-23 18:12:21.0927||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-23 18:12:21.0927||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-23 18:12:21.1203||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV1" stopped. 
+2023-01-23 18:12:21.1203||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV2" stopped. 
+2023-01-23 18:12:21.1203||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNTCJUH2AV1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-01-23 18:12:21.1203||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNTCJUH2AV2" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-01-23 18:12:21.4427||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV3" accepted. 
+2023-01-23 18:12:21.4427||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNTCJUH2AV3" started. 
+2023-01-23 18:12:21.4892||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMNTCJUH2AV3 established using the following protocol: Tls12 
+2023-01-23 18:12:21.5068||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE. 
+2023-01-23 18:12:21.5068||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-01-23 18:12:21.5068||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received SETTINGS frame for stream ID 0 with length 30 and flags NONE. 
+2023-01-23 18:12:21.5068||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-01-23 18:12:21.5068||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-01-23 18:12:21.5068||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 1 with length 627 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:21.5304||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-01-23 18:12:21.5406||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/ - - 
+2023-01-23 18:12:21.5699||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-01-23 18:12:21.5699||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-01-23 18:12:21.5699||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2023-01-23 18:12:21.5932||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/' 
+2023-01-23 18:12:21.5932||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' with route pattern '{controller=WeatherApp}/{action=SearchByCity}' is valid for the request path '/' 
+2023-01-23 18:12:21.5932||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' 
+2023-01-23 18:12:21.5932||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' 
+2023-01-23 18:12:21.6242||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SearchByCity", controller = "WeatherApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchByCity() on controller WeatherApp.Controllers.WeatherAppController (WeatherApp). 
+2023-01-23 18:12:21.6242||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-01-23 18:12:21.6242||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:21.6242||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-01-23 18:12:21.6242||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-01-23 18:12:21.6242||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:21.6242||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.6242||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.6242||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:21.6242||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:21.6242||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:21.6242||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:21.6242||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:21.6325||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp) - Validation state: Valid 
+2023-01-23 18:12:21.6325||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5885ms. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:21.6325||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'SearchByCity' in controller 'WeatherApp'. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/WeatherApp/SearchByCity.cshtml'. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/WeatherApp/_ViewStart.cshtml'. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-01-23 18:12:21.6325||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-01-23 18:12:21.6325||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view SearchByCity. 
+2023-01-23 18:12:21.6478||DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/WeatherApp/SearchByCity.cshtml' was found in 5.2081ms. 
+2023-01-23 18:12:21.6822||TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {de3177e8-852b-495c-9433-86b27b11f2ec} with purposes ('H:\repos\WeatherApp\WeatherApp\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-01-23 18:12:21.6822||TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {de3177e8-852b-495c-9433-86b27b11f2ec} with purposes ('H:\repos\WeatherApp\WeatherApp\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-01-23 18:12:21.6822||DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|A new antiforgery cookie token was created. 
+2023-01-23 18:12:21.7031||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:21.7099||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/CitySearching and  
+2023-01-23 18:12:21.7099||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/CitySearching 
+2023-01-23 18:12:21.7099||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'WeatherApp'. 
+2023-01-23 18:12:21.7099||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/WeatherApp/_Layout.cshtml'. 
+2023-01-23 18:12:21.7099||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'. 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/SelectSensorData and  
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/SelectSensorData 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /Home/Privacy and  
+2023-01-23 18:12:21.7268||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /Home/Privacy 
+2023-01-23 18:12:21.8340||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view SearchByCity executed in 194.5849ms. 
+2023-01-23 18:12:21.8340||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:21.8340||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.8340||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.8340||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.8340||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:21.8340||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp) in 213.9888ms 
+2023-01-23 18:12:21.8340||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' 
+2023-01-23 18:12:21.8610||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-01-23 18:12:21.8729||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 1 with length 362 and flags END_HEADERS. 
+2023-01-23 18:12:21.8729||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 1 with length 1024 and flags NONE. 
+2023-01-23 18:12:21.8729||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 1 with length 1024 and flags NONE. 
+2023-01-23 18:12:21.8729||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 1 with length 1024 and flags NONE. 
+2023-01-23 18:12:21.8729||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 1 with length 936 and flags NONE. 
+2023-01-23 18:12:21.8729||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 1 with length 65 and flags NONE. 
+2023-01-23 18:12:21.8729||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 1 with length 18 and flags NONE. 
+2023-01-23 18:12:21.8729||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-01-23 18:12:21.8819||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:21.8819||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/ - - - 200 - text/html;+charset=utf-8 348.7510ms 
+2023-01-23 18:12:21.9365||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 3 with length 253 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:21.9365||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - 
+2023-01-23 18:12:21.9451||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 3 with length 90 and flags END_HEADERS. 
+2023-01-23 18:12:21.9451||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 3 with length 11990 and flags NONE. 
+2023-01-23 18:12:21.9451||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:21.9451||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 6.6045ms 
+2023-01-23 18:12:21.9451||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 5 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:21.9451||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_vs/browserLink - - 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 6318 and flags NONE. 
+2023-01-23 18:12:21.9900||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:21.9900||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.8701ms 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 7 with length 26 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:22.9679||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/ - - 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/' 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' with route pattern '{controller=WeatherApp}/{action=SearchByCity}' is valid for the request path '/' 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' 
+2023-01-23 18:12:22.9679||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' 
+2023-01-23 18:12:22.9679||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SearchByCity", controller = "WeatherApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchByCity() on controller WeatherApp.Controllers.WeatherAppController (WeatherApp). 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:22.9679||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp) - Validation state: Valid 
+2023-01-23 18:12:22.9679||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.019ms. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'SearchByCity' in controller 'WeatherApp'. 
+2023-01-23 18:12:22.9679||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view SearchByCity. 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/WeatherApp/SearchByCity.cshtml' was found in 0.1238ms. 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing unprotect operation to key {de3177e8-852b-495c-9433-86b27b11f2ec} with purposes ('H:\repos\WeatherApp\WeatherApp\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-01-23 18:12:22.9679||TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {de3177e8-852b-495c-9433-86b27b11f2ec} with purposes ('H:\repos\WeatherApp\WeatherApp\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/CitySearching and  
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/CitySearching 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'WeatherApp'. 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/SelectSensorData and  
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/SelectSensorData 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /Home/Privacy and  
+2023-01-23 18:12:22.9679||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /Home/Privacy 
+2023-01-23 18:12:22.9775||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view SearchByCity executed in 7.9995ms. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:22.9775||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp) in 8.5879ms 
+2023-01-23 18:12:22.9775||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherApp.Controllers.WeatherAppController.SearchByCity (WeatherApp)' 
+2023-01-23 18:12:22.9775||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 7 with length 36 and flags END_HEADERS. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 7 with length 1024 and flags NONE. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 7 with length 1024 and flags NONE. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 7 with length 1024 and flags NONE. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 7 with length 936 and flags NONE. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 7 with length 65 and flags NONE. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 7 with length 18 and flags NONE. 
+2023-01-23 18:12:22.9775||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-01-23 18:12:22.9775||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:22.9775||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/ - - - 200 - text/html;+charset=utf-8 12.9645ms 
+2023-01-23 18:12:23.0284||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 9 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:23.0284||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_vs/browserLink - - 
+2023-01-23 18:12:23.0284||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 11 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:23.0284||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - 
+2023-01-23 18:12:23.0284||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 11 with length 13 and flags END_HEADERS. 
+2023-01-23 18:12:23.0284||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 11 with length 11990 and flags NONE. 
+2023-01-23 18:12:23.0284||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:23.0823||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 52.7456ms 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 9 with length 66 and flags END_HEADERS. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 9986 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.0893||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 6318 and flags NONE. 
+2023-01-23 18:12:23.1224||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:23.1224||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 95.2790ms 
+2023-01-23 18:12:24.5117||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 13 with length 108 and flags END_HEADERS, PRIORITY. 
+2023-01-23 18:12:24.5117||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received DATA frame for stream ID 13 with length 207 and flags END_STREAM. 
+2023-01-23 18:12:24.5117||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7007/WeatherApp/CitySearching application/x-www-form-urlencoded 207 
+2023-01-23 18:12:24.5117||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-01-23 18:12:24.5117||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-01-23 18:12:24.5117||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherApp/CitySearching' 
+2023-01-23 18:12:24.5117||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp)' with route pattern '{controller=WeatherApp}/{action=SearchByCity}' is valid for the request path '/WeatherApp/CitySearching' 
+2023-01-23 18:12:24.5117||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp)' 
+2023-01-23 18:12:24.5117||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp)' 
+2023-01-23 18:12:24.5250||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CitySearching", controller = "WeatherApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CitySearching(WeatherApp.Models.SearchByCityModel) on controller WeatherApp.Controllers.WeatherAppController (WeatherApp). 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:24.5250||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.5250||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMNTCJUH2AV3", Request id "0HMNTCJUH2AV3:0000000D": started reading request body. 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMNTCJUH2AV3", Request id "0HMNTCJUH2AV3:0000000D": done reading request body. 
+2023-01-23 18:12:24.5250||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'WeatherApp.Models.SearchByCityModel' ... 
+2023-01-23 18:12:24.5368||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Attempting to bind parameter 'model' of type 'WeatherApp.Models.SearchByCityModel' using the name '' in request data ... 
+2023-01-23 18:12:24.5368||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'WeatherApp.Models.SearchByCityModel.CityName' of type 'System.String' using the name 'CityName' in request data ... 
+2023-01-23 18:12:24.5368||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'WeatherApp.Models.SearchByCityModel.CityName' of type 'System.String'. 
+2023-01-23 18:12:24.5368||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Done attempting to bind parameter 'model' of type 'WeatherApp.Models.SearchByCityModel'. 
+2023-01-23 18:12:24.5368||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'WeatherApp.Models.SearchByCityModel'. 
+2023-01-23 18:12:24.5368||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'WeatherApp.Models.SearchByCityModel' ... 
+2023-01-23 18:12:24.5368||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'WeatherApp.Models.SearchByCityModel'. 
+2023-01-23 18:12:24.5368||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:24.5368||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:24.5368||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:24.5368||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp) - Validation state: Valid 
+2023-01-23 18:12:24.5368||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp) with arguments (WeatherApp.Models.SearchByCityModel) 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 365.7278ms. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.RedirectToActionResult. 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/City and ?Lat=50.1637598&Lon=22.4596076&Name=Grodzisko%20Dolne&Country=PL 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/City?Lat=50.1637598&Lon=22.4596076&Name=Grodzisko%20Dolne&Country=PL 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /WeatherApp/City?Lat=50.1637598&Lon=22.4596076&Name=Grodzisko%20Dolne&Country=PL. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.RedirectToActionResult. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp) in 387.9305ms 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherApp.Controllers.WeatherAppController.CitySearching (WeatherApp)' 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 13 with length 123 and flags END_STREAM, END_HEADERS. 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7007/WeatherApp/CitySearching application/x-www-form-urlencoded 207 - 302 0 - 401.3342ms 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 15 with length 88 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/WeatherApp/City?Lat=50.1637598&Lon=22.4596076&Name=Grodzisko%20Dolne&Country=PL - - 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /WeatherApp/City does not match a supported file type 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherApp/City' 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherApp.Controllers.WeatherAppController.City (WeatherApp)' with route pattern '{controller=WeatherApp}/{action=SearchByCity}' is valid for the request path '/WeatherApp/City' 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherApp.Controllers.WeatherAppController.City (WeatherApp)' 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherApp.Controllers.WeatherAppController.City (WeatherApp)' 
+2023-01-23 18:12:24.9120||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "City", controller = "WeatherApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult City(WeatherApp.Models.WeatherModels.Coord) on controller WeatherApp.Controllers.WeatherAppController (WeatherApp). 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'coord' of type 'WeatherApp.Models.WeatherModels.Coord' ... 
+2023-01-23 18:12:24.9120||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Attempting to bind parameter 'coord' of type 'WeatherApp.Models.WeatherModels.Coord' using the name '' in request data ... 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DoubleModelBinder|Attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Lat' of type 'System.Double' using the name 'Lat' in request data ... 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DoubleModelBinder|Done attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Lat' of type 'System.Double'. 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DoubleModelBinder|Attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Lon' of type 'System.Double' using the name 'Lon' in request data ... 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DoubleModelBinder|Done attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Lon' of type 'System.Double'. 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Name' of type 'System.String' using the name 'Name' in request data ... 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Name' of type 'System.String'. 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Country' of type 'System.String' using the name 'Country' in request data ... 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'WeatherApp.Models.WeatherModels.Coord.Country' of type 'System.String'. 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Done attempting to bind parameter 'coord' of type 'WeatherApp.Models.WeatherModels.Coord'. 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'coord' of type 'WeatherApp.Models.WeatherModels.Coord'. 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'coord' of type 'WeatherApp.Models.WeatherModels.Coord' ... 
+2023-01-23 18:12:24.9274||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'coord' of type 'WeatherApp.Models.WeatherModels.Coord'. 
+2023-01-23 18:12:24.9274||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:24.9274||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:24.9274||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:24.9274||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.City (WeatherApp) - Validation state: Valid 
+2023-01-23 18:12:24.9274||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.City (WeatherApp) with arguments (WeatherApp.Models.WeatherModels.Coord) 
+2023-01-23 18:12:25.2086||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WeatherApp.Controllers.WeatherAppController.City (WeatherApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 279.9701ms. 
+2023-01-23 18:12:25.2086||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:25.2086||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:25.2086||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:25.2086||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:25.2086||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:25.2086||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:25.2086||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'CityDaily' in controller 'WeatherApp'. 
+2023-01-23 18:12:25.2086||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/WeatherApp/CityDaily.cshtml'. 
+2023-01-23 18:12:25.2089||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/WeatherApp/_ViewStart.cshtml'. 
+2023-01-23 18:12:25.2089||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-01-23 18:12:25.2089||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-01-23 18:12:25.2089||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CityDaily. 
+2023-01-23 18:12:25.2089||DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/WeatherApp/CityDaily.cshtml' was found in 0.4961ms. 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'WeatherApp'. 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/SelectSensorData and  
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/SelectSensorData 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /Home/Privacy and  
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /Home/Privacy 
+2023-01-23 18:12:25.2261||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view CityDaily executed in 19.886ms. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:25.2261||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherApp.Controllers.WeatherAppController.City (WeatherApp) in 305.6046ms 
+2023-01-23 18:12:25.2261||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherApp.Controllers.WeatherAppController.City (WeatherApp)' 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 15 with length 34 and flags END_HEADERS. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 1024 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 1024 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 1025 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 1024 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 1029 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 1029 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 1028 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 953 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 65 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 73 and flags NONE. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 431 and flags NONE. 
+2023-01-23 18:12:25.2261||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-01-23 18:12:25.2261||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:25.2261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/WeatherApp/City?Lat=50.1637598&Lon=22.4596076&Name=Grodzisko%20Dolne&Country=PL - - - 200 - text/html;+charset=utf-8 312.3339ms 
+2023-01-23 18:12:25.2686||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 17 with length 138 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:25.2686||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_vs/browserLink - - 
+2023-01-23 18:12:25.2686||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 19 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:25.2686||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - 
+2023-01-23 18:12:25.2686||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 19 with length 13 and flags END_HEADERS. 
+2023-01-23 18:12:25.2686||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 19 with length 11990 and flags NONE. 
+2023-01-23 18:12:25.2686||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 19 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:25.2686||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 0.2785ms 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 17 with length 96 and flags END_HEADERS. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 9986 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 10240 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 6318 and flags NONE. 
+2023-01-23 18:12:25.2725||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:25.2725||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.2291ms 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 21 with length 47 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:26.0573||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/WeatherApp/SelectSensorData - - 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /WeatherApp/SelectSensorData does not match a supported file type 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherApp/SelectSensorData' 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherApp.Controllers.WeatherAppController.SelectSensorData (WeatherApp)' with route pattern '{controller=WeatherApp}/{action=SearchByCity}' is valid for the request path '/WeatherApp/SelectSensorData' 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherApp.Controllers.WeatherAppController.SelectSensorData (WeatherApp)' 
+2023-01-23 18:12:26.0573||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherApp.Controllers.WeatherAppController.SelectSensorData (WeatherApp)' 
+2023-01-23 18:12:26.0573||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SelectSensorData", controller = "WeatherApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SelectSensorData() on controller WeatherApp.Controllers.WeatherAppController (WeatherApp). 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:26.0573||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.SelectSensorData (WeatherApp) - Validation state: Valid 
+2023-01-23 18:12:26.0573||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WeatherApp.Controllers.WeatherAppController.SelectSensorData (WeatherApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.5268ms. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'SelectSensorData' in controller 'WeatherApp'. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/WeatherApp/SelectSensorData.cshtml'. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/WeatherApp/_ViewStart.cshtml'. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-01-23 18:12:26.0573||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view SelectSensorData. 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/WeatherApp/SelectSensorData.cshtml' was found in 0.4328ms. 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing unprotect operation to key {de3177e8-852b-495c-9433-86b27b11f2ec} with purposes ('H:\repos\WeatherApp\WeatherApp\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-01-23 18:12:26.0573||TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {de3177e8-852b-495c-9433-86b27b11f2ec} with purposes ('H:\repos\WeatherApp\WeatherApp\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-01-23 18:12:26.0573||DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/SelectingSensorData and  
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/SelectingSensorData 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'WeatherApp'. 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/SelectSensorData and  
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/SelectSensorData 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /Home/Privacy and  
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /Home/Privacy 
+2023-01-23 18:12:26.0726||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view SelectSensorData executed in 14.5506ms. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:26.0726||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherApp.Controllers.WeatherAppController.SelectSensorData (WeatherApp) in 16.3578ms 
+2023-01-23 18:12:26.0726||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherApp.Controllers.WeatherAppController.SelectSensorData (WeatherApp)' 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 21 with length 6 and flags END_HEADERS. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 1024 and flags NONE. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 1024 and flags NONE. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 1025 and flags NONE. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 644 and flags NONE. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 65 and flags NONE. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 380 and flags NONE. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 133 and flags NONE. 
+2023-01-23 18:12:26.0726||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-01-23 18:12:26.0726||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 21 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:26.0726||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/WeatherApp/SelectSensorData - - - 200 - text/html;+charset=utf-8 18.4605ms 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 23 with length 98 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 25 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:26.1116||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_vs/browserLink - - 
+2023-01-23 18:12:26.1116||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 25 with length 13 and flags END_HEADERS. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 25 with length 11990 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 25 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:26.1116||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 0.3483ms 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 23 with length 66 and flags END_HEADERS. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 9986 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1116||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 10240 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 6318 and flags NONE. 
+2023-01-23 18:12:26.1149||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 23 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:26.1149||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.4868ms 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 27 with length 56 and flags END_HEADERS, PRIORITY. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received DATA frame for stream ID 27 with length 214 and flags END_STREAM. 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7007/WeatherApp/SelectingSensorData application/x-www-form-urlencoded 214 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherApp/SelectingSensorData' 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp)' with route pattern '{controller=WeatherApp}/{action=SearchByCity}' is valid for the request path '/WeatherApp/SelectingSensorData' 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp)' 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp)' 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SelectingSensorData", controller = "WeatherApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SelectingSensorData(WeatherApp.Models.SelectDataModel) on controller WeatherApp.Controllers.WeatherAppController (WeatherApp). 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMNTCJUH2AV3", Request id "0HMNTCJUH2AV3:0000001B": started reading request body. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMNTCJUH2AV3", Request id "0HMNTCJUH2AV3:0000001B": done reading request body. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel' ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel' using the name '' in request data ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'WeatherApp.Models.SelectDataModel.Results' of type 'System.Int32' using the name 'Results' in request data ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'WeatherApp.Models.SelectDataModel.Results' of type 'System.Int32'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'WeatherApp.Models.SelectDataModel.Location' of type 'System.String' using the name 'Location' in request data ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'WeatherApp.Models.SelectDataModel.Location' of type 'System.String'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Done attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'WeatherApp.Models.SelectDataModel' ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'WeatherApp.Models.SelectDataModel'. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp) - Validation state: Valid 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp) with arguments (WeatherApp.Models.SelectDataModel) 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.1247ms. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.RedirectToActionResult. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/SensorData and ?Results=5&Location=Le%C5%BCajsk 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/SensorData?Results=5&Location=Le%C5%BCajsk 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /WeatherApp/SensorData?Results=5&Location=Le%C5%BCajsk. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.RedirectToActionResult. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp) in 1.9088ms 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherApp.Controllers.WeatherAppController.SelectingSensorData (WeatherApp)' 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 27 with length 93 and flags END_STREAM, END_HEADERS. 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7007/WeatherApp/SelectingSensorData application/x-www-form-urlencoded 214 - 302 0 - 3.6698ms 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 29 with length 68 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/WeatherApp/SensorData?Results=5&Location=Le%C5%BCajsk - - 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /WeatherApp/SensorData does not match a supported file type 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherApp/SensorData' 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp)' with route pattern '{controller=WeatherApp}/{action=SearchByCity}' is valid for the request path '/WeatherApp/SensorData' 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp)' 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp)' 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SensorData", controller = "WeatherApp"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SensorData(WeatherApp.Models.SelectDataModel) on controller WeatherApp.Controllers.WeatherAppController (WeatherApp). 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherApp.Controllers.WeatherAppController (WeatherApp) 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel' ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel' using the name '' in request data ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'WeatherApp.Models.SelectDataModel.Results' of type 'System.Int32' using the name 'Results' in request data ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'WeatherApp.Models.SelectDataModel.Results' of type 'System.Int32'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'WeatherApp.Models.SelectDataModel.Location' of type 'System.String' using the name 'Location' in request data ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'WeatherApp.Models.SelectDataModel.Location' of type 'System.String'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Done attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'WeatherApp.Models.SelectDataModel'. 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'WeatherApp.Models.SelectDataModel' ... 
+2023-01-23 18:12:29.3344||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'WeatherApp.Models.SelectDataModel'. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:29.3344||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp) - Validation state: Valid 
+2023-01-23 18:12:29.3344||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp) with arguments (WeatherApp.Models.SelectDataModel) 
+2023-01-23 18:12:30.1483||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 804.1884ms. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'SensorData' in controller 'WeatherApp'. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/WeatherApp/SensorData.cshtml'. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/WeatherApp/_ViewStart.cshtml'. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-01-23 18:12:30.1483||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view SensorData. 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/WeatherApp/SensorData.cshtml' was found in 0.4654ms. 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'WeatherApp'. 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in  and  
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result / 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /WeatherApp/SelectSensorData and  
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /WeatherApp/SelectSensorData 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=WeatherApp}/{action=SearchByCity} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=WeatherApp}/{action=SearchByCity} for Route: {controller=WeatherApp}/{action=SearchByCity} resulting in /Home/Privacy and  
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=WeatherApp}/{action=SearchByCity} with result /Home/Privacy 
+2023-01-23 18:12:30.1483||INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view SensorData executed in 7.1705ms. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-01-23 18:12:30.1483||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp) in 812.1647ms 
+2023-01-23 18:12:30.1483||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherApp.Controllers.WeatherAppController.SensorData (WeatherApp)' 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 29 with length 34 and flags END_HEADERS. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 1024 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 1024 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 1024 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 559 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 65 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 465 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 1024 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 1025 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 1032 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 1026 and flags NONE. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 651 and flags NONE. 
+2023-01-23 18:12:30.1483||DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 29 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:30.1483||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/WeatherApp/SensorData?Results=5&Location=Le%C5%BCajsk - - - 200 - text/html;+charset=utf-8 814.9526ms 
+2023-01-23 18:12:30.1483||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 31 with length 118 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:30.2049||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_vs/browserLink - - 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" received HEADERS frame for stream ID 33 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-01-23 18:12:30.2049||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 33 with length 13 and flags END_HEADERS. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 33 with length 11990 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 33 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:30.2049||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 0.4273ms 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending HEADERS frame for stream ID 31 with length 96 and flags END_HEADERS. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 9986 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2049||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 10240 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 6318 and flags NONE. 
+2023-01-23 18:12:30.2089||TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMNTCJUH2AV3" sending DATA frame for stream ID 31 with length 0 and flags END_STREAM. 
+2023-01-23 18:12:30.2089||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7007/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8144ms 

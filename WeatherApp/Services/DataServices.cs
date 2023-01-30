@@ -10,42 +10,14 @@ namespace WeatherApp.Services
 {
     public interface IDataService
     {
-        Coord GetCityCoord(string cityName);
-        CityModel GetForecast(Coord coord);
-        SensorModel GetMeasurements(SelectDataModel model);
+        Task<Coord> GetCityCoord(string cityName);
+        Task<CityModel> GetForecast(Coord coord);
+        Task<SensorModel> GetMeasurements(SelectDataModel model);
     }
 
     public class DataServices : IDataService
     {
-        public static readonly RestClient client = new(); // jak to ubrać w using() tak jak w komentarzu /// getcitycoord ma clienta w usingu
-
-        // zrobić asynchroniczne metody !!!!!!111!!!!!1!
-
-
-
-        //using (var client = new RestClient(url))
-        //    {
-        //        var request = new RestRequest(url, Method.Get);
-        //        var response = client.Execute(request);
-
-        //        if (response.IsSuccessful)
-        //        {
-        //            if (response.Content != "[]")
-        //            {
-        //                var content = JsonConvert.DeserializeObject<JToken>(response.Content);
-        //                var GeocodingResponse = content.ToObject<List<GeocodingResponse>>();
-        //                coord = new Coord()
-        //                {
-        //                    Lat = GeocodingResponse[0].Lat,
-        //                    Lon = GeocodingResponse[0].Lon,
-        //                    Name = GeocodingResponse[0].Name,
-        //                    Country = GeocodingResponse[0].Country
-        //                };
-        //            }
-        //        }
-        //    }
-        //    return coord;
-
+        public static readonly RestClient client = new();
 
         private readonly ConnectionValues _connectionValues;
         public DataServices(ConnectionValues connectionValues)
@@ -53,46 +25,47 @@ namespace WeatherApp.Services
             _connectionValues = connectionValues;
         }
 
-        public Coord GetCityCoord(string cityName)
+        public async Task<Coord> GetCityCoord(string cityName)
         {
             string APP_ID = _connectionValues.OPEN_WEATHER_APP_ID;
             string limit = _connectionValues.limit;
 
             var url = $"http://api.openweathermap.org/geo/1.0/direct?q={cityName}&limit={limit}&appid={APP_ID}";
             Coord coord = null;
-            using (var client = new RestClient(url))
+
+
+
+            var request = new RestRequest(url, Method.Get);
+            var response = await client.ExecuteAsync(request);
+
+            if (!response.IsSuccessful)
             {
-                var request = new RestRequest(url, Method.Get);
-                var response = client.Execute(request);
-
-                if (!response.IsSuccessful)
-                {
-                    throw new ConnectionFailedException("Response is not succesful");                    
-                }
-                else
-                {
-                    if (response.Content == "[]")
-                    {
-                        //throw new NotFoundException("Data not found");
-                        return null;
-                    };
-                }
-
-                var content = JsonConvert.DeserializeObject<JToken>(response.Content);
-                var GeocodingResponse = content.ToObject<List<GeocodingResponse>>();
-                coord = new Coord()
-                {
-                    Lat = GeocodingResponse[0].Lat,
-                    Lon = GeocodingResponse[0].Lon,
-                    Name = GeocodingResponse[0].Name,
-                    Country = GeocodingResponse[0].Country
-                };                        
+                throw new ConnectionFailedException("Response is not succesful");
             }
+            else
+            {
+                if (response.Content == "[]")
+                {
+                    //throw new NotFoundException("Data not found");
+                    return null;
+                };
+            }
+
+            var content = JsonConvert.DeserializeObject<JToken>(response.Content);
+            var GeocodingResponse = content.ToObject<List<GeocodingResponse>>();
+            coord = new Coord()
+            {
+                Lat = GeocodingResponse[0].Lat,
+                Lon = GeocodingResponse[0].Lon,
+                Name = GeocodingResponse[0].Name,
+                Country = GeocodingResponse[0].Country
+            };
+
             return coord;
         }
 
 
-        public CityModel GetForecast(Coord coord)
+        public async Task<CityModel> GetForecast(Coord coord)
         {
             double lat = coord.Lat;
             double lon = coord.Lon;
@@ -101,7 +74,7 @@ namespace WeatherApp.Services
             string part = _connectionValues.part;
             var url = $"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&units=metric&appid={APP_ID}";
             var request = new RestRequest(url, Method.Get);
-            var response = client.Execute(request);
+            var response = await client.ExecuteAsync(request);
 
             if (!response.IsSuccessful)
             {
@@ -136,20 +109,20 @@ namespace WeatherApp.Services
         }
 
 
-        public SensorModel GetMeasurements(SelectDataModel model)
+        public async Task<SensorModel> GetMeasurements(SelectDataModel model)
         {
 
             string API_KEY_A = _connectionValues.ARDUINO_THINGSPEAK_API_KEY;
             string channelID_A = _connectionValues.ARDUINO_CHANNEL_ID;
             var url_A = $"https://api.thingspeak.com/channels/{channelID_A}/feeds.json?api_key={API_KEY_A}&results={model.Results}";
             var request_A = new RestRequest(url_A, Method.Get);
-            var response_A = client.Execute(request_A);
+            var response_A = await client.ExecuteAsync(request_A);
 
             string API_KEY_R = _connectionValues.RASPBERRY_THINGSPEAK_API_KEY;
             string channelID_R = _connectionValues.RASPBERRY_CHANNEL_ID;
             var url_R = $"https://api.thingspeak.com/channels/{channelID_R}/feeds.json?api_key={API_KEY_R}&results={model.Results}";
             var request_R = new RestRequest(url_R, Method.Get);
-            var response_R = client.Execute(request_R);
+            var response_R = await client.ExecuteAsync(request_R);
 
             if (!response_A.IsSuccessful && !response_R.IsSuccessful)
             {
@@ -164,11 +137,11 @@ namespace WeatherApp.Services
                 content_A = JsonConvert.DeserializeObject<ThingSpeakResponse>(response_A.Content);
                 content_R = JsonConvert.DeserializeObject<ThingSpeakResponse>(response_R.Content);
             }
-            catch(ArgumentOutOfRangeException e)
+            catch (ArgumentOutOfRangeException e)
             {
-                
+
             }
-            
+
             var viewModel = new SensorModel();
             viewModel.Ard_Created_At = content_A.Feeds.Select(p => p.Created_At).ToList();
             viewModel.PM1 = content_A.Feeds.Select(p => p.Field1).ToList();

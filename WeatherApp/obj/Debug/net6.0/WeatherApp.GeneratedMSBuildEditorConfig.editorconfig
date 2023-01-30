@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WeatherApp
 build_property.RootNamespace = WeatherApp
-build_property.ProjectDir = C:\Users\marci\source\repos\WeatherApp\WeatherApp\
+build_property.ProjectDir = H:\repos\WeatherApp\WeatherApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\marci\source\repos\WeatherApp\WeatherApp
+build_property.MSBuildProjectDirectory = H:\repos\WeatherApp\WeatherApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/Home/Index.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/Home/Privacy.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/Shared/Error.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/WeatherApp/CityDaily.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/WeatherApp/CityDaily.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckFwcFxDaXR5RGFpbHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/WeatherApp/CityNotFound.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/WeatherApp/CityNotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckFwcFxDaXR5Tm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/WeatherApp/SearchByCity.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/WeatherApp/SearchByCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckFwcFxTZWFyY2hCeUNpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/WeatherApp/SelectSensorData.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/WeatherApp/SelectSensorData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckFwcFxTZWxlY3RTZW5zb3JEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/WeatherApp/SensorData.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/WeatherApp/SensorData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckFwcFxTZW5zb3JEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/_ViewImports.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/_ViewStart.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marci/source/repos/WeatherApp/WeatherApp/Views/Shared/_Layout.cshtml]
+[H:/repos/WeatherApp/WeatherApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ainogv7fv6
